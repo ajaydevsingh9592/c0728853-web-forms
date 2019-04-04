@@ -12,6 +12,9 @@
             <h1>newsletter signup</h1>
         </div>
         <asp:Label ID="Label1" runat="server" Text="email ajay"></asp:Label>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="submit" />
+        </p>
     </form>
 </body>
 </html>
