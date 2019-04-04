@@ -10,11 +10,18 @@
     <form id="form1" runat="server">
         <div>
             <h1>newsletter signup</h1>
+            <p>
+                <asp:Literal ID="ltMessage" runat="server"></asp:Literal>
+            </p>
         </div>
         <asp:Label ID="Label1" runat="server" Text="email ajay"></asp:Label>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="submit" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="submit" />
         </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>

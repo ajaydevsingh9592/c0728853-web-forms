@@ -11,6 +11,14 @@ namespace c0728853_web_forms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                ltMessage.Text = "Welcome to sign up page";
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
